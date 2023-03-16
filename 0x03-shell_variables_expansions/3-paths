@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(('eco $PAT | grep -o ":/" | wc -l' +1))
